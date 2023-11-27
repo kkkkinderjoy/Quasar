@@ -32,7 +32,7 @@
             <q-avatar size="77px">
               <q-img src="/profile.png" />
             </q-avatar>
-            <div class="text-center q-mt-sm">제목</div>
+            <div class="text-center q-mt-sm">하이라이트</div>
           </article>
         </div>
       </div>
@@ -41,11 +41,11 @@
       <div class="row q-col-gutter-md">
         <div v-for="n in 10" :key="n" class="col-12 col-sm-2 col-md-4 col-lg-3">
           <q-card class="my-card">
-            <q-img ratio="1" src="https://cdn.quasar.dev/img/parallax2.jpg">
+            <q-img ratio="1" src="a03.jpg">
               <div
                 class="absolute-bottom text-subtitle2 text-center full-height flex-center"
               >
-                Title
+                제목
               </div>
             </q-img>
           </q-card>
